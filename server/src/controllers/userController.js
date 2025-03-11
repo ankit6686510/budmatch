@@ -49,7 +49,7 @@ export const loginUser = async (req, res) => {
       return res.status(401).json({ message: 'Invalid email or password' });
     }
 
-    console.log('User password from DB:', user.password);  // Debugging line to ensure password is present
+    // console.log('User password from DB:', user.password);  // Debugging line to ensure password is present
 
     if (await user.matchPassword(password)) {
       res.json({

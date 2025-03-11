@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Flipkart-like grid */
+.MuiGrid-root {
+  padding: 8px !important;
+}
+
+/* Hover effects */
+.MuiCard-root:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}
